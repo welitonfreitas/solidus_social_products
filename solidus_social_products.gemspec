@@ -5,7 +5,7 @@ require 'spree_social_products/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_social_products'
+  s.name        = 'solidus_social_products'
   s.version     = SpreeSocialProducts.version
   s.summary     = 'Adds social network sharing to product pages'
   s.required_ruby_version = '>= 2.1.0'
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_core', '~> 3.1.0.beta'
+  s.add_runtime_dependency 'solidus_core', '~> 1.1.0'
 
   s.add_development_dependency 'capybara', '~> 2.4.4'
   s.add_development_dependency 'coffee-rails', '~> 4.0.0'
